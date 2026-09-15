@@ -1,0 +1,4134 @@
+{
+ "asset": {
+  "type": "application/si-dpo-3d.document+json",
+  "version": "1.0",
+  "generator": "hand-edited from the Smithsonian shuttle example",
+  "copyright": "(c) Smithsonian Institution. All rights reserved."
+ },
+ "scene": 0,
+ "scenes": [
+  {
+   "units": "m",
+   "name": "Scene",
+   "nodes": [
+    0,
+    1,
+    6
+   ],
+   "meta": 1,
+   "setup": 0
+  }
+ ],
+ "nodes": [
+  {
+   "translation": [
+    30.341513,
+    -4.2842509,
+    -7.1005021
+   ],
+   "rotation": [
+    0.0145461,
+    0.7686754,
+    -0.0174916,
+    0.6392344
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ],
+   "name": "Camera",
+   "camera": 0
+  },
+  {
+   "rotation": [
+    0,
+    0.7688744,
+    0,
+    0.6393998
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ],
+   "name": "Lights",
+   "children": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "translation": [
+    -16.2055292,
+    17.7428259,
+    29.8823292
+   ],
+   "rotation": [
+    0.4829741,
+    -0.1070728,
+    0.1880998,
+    0.8484633
+   ],
+   "scale": [
+    6.3909238,
+    6.3909238,
+    6.3909238
+   ],
+   "name": "Key",
+   "light": 0
+  },
+  {
+   "translation": [
+    29.2016015,
+    17.264003,
+    17.8773968
+   ],
+   "rotation": [
+    0.3546969,
+    0.163893,
+    -0.3861077,
+    0.8356136
+   ],
+   "scale": [
+    6.3909238,
+    6.3909238,
+    6.3909238
+   ],
+   "name": "Fill #1",
+   "light": 1
+  },
+  {
+   "translation": [
+    -22.3762067,
+    -29.261824,
+    10.6504305
+   ],
+   "rotation": [
+    0.9374013,
+    -0.3018693,
+    0.0532277,
+    0.1652891
+   ],
+   "scale": [
+    6.3909238,
+    6.3909238,
+    6.3909238
+   ],
+   "name": "Fill #2",
+   "light": 2
+  },
+  {
+   "translation": [
+    33.3081455,
+    1.9858976,
+    -18.8945574
+   ],
+   "rotation": [
+    0.373256,
+    0.6426073,
+    -0.5786063,
+    0.3360813
+   ],
+   "scale": [
+    6.3909238,
+    6.3909238,
+    6.3909238
+   ],
+   "name": "Rim",
+   "light": 3
+  },
+  {
+   "name": "SShuttle_Exterior_2019_CLI_TIF_Model_12",
+   "model": 0,
+   "meta": 0
+  }
+ ],
+ "cameras": [
+  {
+   "type": "perspective",
+   "perspective": {
+    "yfov": 52,
+    "znear": 0.1880688,
+    "zfar": 188.0688387
+   }
+  }
+ ],
+ "lights": [
+  {
+   "color": [
+    1,
+    0.95,
+    0.9
+   ],
+   "intensity": 1,
+   "type": "directional",
+   "shadowEnabled": true,
+   "shadowSize": 63.9092378
+  },
+  {
+   "color": [
+    0.9,
+    0.95,
+    1
+   ],
+   "intensity": 0.7,
+   "type": "directional",
+   "shadowEnabled": true,
+   "shadowSize": 63.9092378
+  },
+  {
+   "color": [
+    0.8,
+    0.85,
+    1
+   ],
+   "intensity": 0.5,
+   "type": "directional"
+  },
+  {
+   "color": [
+    0.85,
+    0.9078313,
+    1
+   ],
+   "intensity": 0.6,
+   "type": "directional"
+  }
+ ],
+ "models": [
+  {
+   "units": "mm",
+   "boundingBox": {
+    "min": [
+     -16.053,
+     -6.4521,
+     -6.2343
+    ],
+    "max": [
+     17.8633,
+     5.4194,
+     6.4336
+    ]
+   },
+   "derivatives": [
+    {
+     "usage": "Web3D",
+     "quality": "High",
+     "assets": [
+      {
+       "uri": "../aira_caryophylla_pmr642_3_29_2019_009_aligned.ply",
+       "type": "Geometry",
+       "byteSize": 646066,
+       "numFaces": 20000
+      }
+     ]
+    }
+   ],
+   "annotations": [
+    {
+     "id": "JMgjctAgw9JF",
+     "titles": {
+      "EN": "Space Shuttle Main Engine 1"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Taking Off"
+      ]
+     },
+     "articleId": "uMsrqfsmqG9o",
+     "viewId": "0ezUuq",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      1.1231652,
+      -0.350371,
+      -15.3165862
+     ],
+     "direction": [
+      -0.9658082,
+      -0.1784951,
+      -0.1880268
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "a8ezrhlaHluF",
+     "titles": {
+      "EN": "Space Shuttle Main Engine 3"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Taking Off"
+      ]
+     },
+     "articleId": "uMsrqfsmqG9o",
+     "viewId": "FyAjNX",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -2.6387922,
+      -3.4904646,
+      -16.0442638
+     ],
+     "direction": [
+      -0.9943724,
+      0.0266538,
+      -0.1025334
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "AjgVbkVP2ZkT",
+     "titles": {
+      "EN": "Space Shuttle Main Engine 2"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Taking Off"
+      ]
+     },
+     "articleId": "uMsrqfsmqG9o",
+     "viewId": "OPXco0",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      1.7251263,
+      -2.2648424,
+      -16.167209
+     ],
+     "direction": [
+      -0.0923775,
+      -0.9641897,
+      -0.2486052
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "gqMKPUCGNeOB",
+     "titles": {
+      "EN": "OMS Pod 2"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "15aecM",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -2.6805305,
+      0.5591606,
+      -10.3743018
+     ],
+     "direction": [
+      -0.674023,
+      0.7184678,
+      0.1717468
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "wIGSLjq8XSVi",
+     "titles": {
+      "EN": "OMS Pod 1"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "Tm858J",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      2.6359722,
+      0.4804421,
+      -9.6891141
+     ],
+     "direction": [
+      0.6585945,
+      0.707455,
+      0.2564387
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "miFk67PgTzYI",
+     "titles": {
+      "EN": "RCS Thrusters"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "Y7o19z",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -1.8782694,
+      -2.1028201,
+      15.7678384
+     ],
+     "direction": [
+      -0.3475238,
+      0.1672606,
+      0.9226327
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "W0tZ8EK8oq4C",
+     "titles": {
+      "EN": "RCS Thrusters"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "syOBL1",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -0.3824747,
+      -1.0650062,
+      16.8544782
+     ],
+     "direction": [
+      -0.9918622,
+      0.092226,
+      0.0877706
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "UwR6vO7NjWpt",
+     "titles": {
+      "EN": "RCS Thrusters"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "kkDKca",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      1.468165,
+      -2.062507,
+      15.8029338
+     ],
+     "direction": [
+      0.4506285,
+      0.2562035,
+      0.8551571
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "a65OCZcMGge5",
+     "titles": {
+      "EN": "Crew Hatch"
+     },
+     "leads": {
+      "EN": "Astronauts used this entry to board Discovery and exit after landing. Today, it still serves as the primary access point for Museum staff. Click \"Read More\" for a video tour of the interior."
+     },
+     "taglist": {
+      "EN": [
+       "Taking Off"
+      ]
+     },
+     "articleId": "Q8zsPcS71nOZ",
+     "viewId": "0eERHJ",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      2.4884229,
+      -1.9605166,
+      11.6128728
+     ],
+     "direction": [
+      0.9870762,
+      -0.0372469,
+      0.1558627
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0,
+      0.87
+     ]
+    },
+    {
+     "id": "UKrcT1QJsGSG",
+     "titles": {
+      "EN": "Windows"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Working in Space"
+      ]
+     },
+     "articleId": "9nCI2g0TXDOu",
+     "imageUri": "articles/sts064-08-016~medium.jpg",
+     "imageCredit": {
+      "EN": "NASA"
+     },
+     "imageAltText": {
+      "EN": "A man looks out of the window of the space shuttle while it is in orbit. The view out the windows looks blue, perhaps from Earth's oceans."
+     },
+     "viewId": "6xRK7A",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      0.533459,
+      0.4465619,
+      12.6553431
+     ],
+     "direction": [
+      0.0612768,
+      0.9619874,
+      0.2661304
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "hv7AWdtsAEfQ",
+     "titles": {
+      "EN": "Windows"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Working in Space"
+      ]
+     },
+     "articleId": "9nCI2g0TXDOu",
+     "imageUri": "articles/sts064-08-016~medium.jpg",
+     "imageCredit": {
+      "EN": "NASA"
+     },
+     "imageAltText": {
+      "EN": "A man looks out of the window of the space shuttle while it is in orbit. The view out the windows looks blue, perhaps from Earth's oceans."
+     },
+     "viewId": "YUnHa3",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -0.7200626,
+      1.2418531,
+      10.4407125
+     ],
+     "direction": [
+      0.6323127,
+      0.7650472,
+      -0.1219972
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "6MMst42GXsEd",
+     "titles": {
+      "EN": "Payload Bay"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Working in Space"
+      ]
+     },
+     "articleId": "CAtrSbgSLVSu",
+     "imageUri": "articles/iss026e032223~medium.jpg",
+     "imageCredit": {
+      "EN": "NASA"
+     },
+     "imageAltText": {
+      "EN": "A space shuttle orbiter against the black background of space, as seen from above. The payload bay door is open."
+     },
+     "viewId": "etmHGX",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      0.2809673,
+      0.7564717,
+      -0.1831863
+     ],
+     "direction": [
+      0.088734,
+      0.9947099,
+      -0.0517539
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "kQB1MNy7DOtQ",
+     "titles": {
+      "EN": "Carbon Panels"
+     },
+     "leads": {
+      "EN": "These gray panels are made of heat-resistant reinforced carbon-carbon. They shielded areas subject to the hottest temperatures during reentry, up to 3000\u00b0F (1650\u00b0C)\u2014the nose cap and wing leading edges"
+     },
+     "taglist": {
+      "EN": [
+       "Reentry"
+      ]
+     },
+     "articleId": "usSpBuGD1GmT",
+     "viewId": "njgtYF",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -7.1298191,
+      -4.1966515,
+      -3.7848488
+     ],
+     "direction": [
+      -0.4184979,
+      0.8097059,
+      0.4113829
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "iQTZoyx7aUAK",
+     "titles": {
+      "EN": "Black Tiles"
+     },
+     "leads": {
+      "EN": "Black tiles protected areas that reached from 1200\u00b0F to 2300\u00b0F (650 to 1260\u00b0C) on the underside and were coated with black glass."
+     },
+     "taglist": {
+      "EN": [
+       "Reentry"
+      ]
+     },
+     "articleId": "usSpBuGD1GmT",
+     "viewId": "U6KoJJ",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      2.1200687,
+      -2.8715383,
+      13.6783697
+     ],
+     "direction": [
+      0.9802723,
+      -0.0015525,
+      0.1976458
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "M9VBpwMCWps6",
+     "titles": {
+      "EN": "White Tiles"
+     },
+     "leads": {
+      "EN": "White tiles protected areas around the forward windows and OMS pods that reached less than 1200\u00b0F (650\u00b0C). White tiles do not have glass coating like the black tiles do."
+     },
+     "taglist": {
+      "EN": [
+       "Reentry"
+      ]
+     },
+     "articleId": "usSpBuGD1GmT",
+     "viewId": "zwT89c",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -2.3000701,
+      0.2233936,
+      -8.9778397
+     ],
+     "direction": [
+      -0.4727398,
+      0.5639581,
+      0.6771029
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "rqKpvB9J6o38",
+     "titles": {
+      "EN": "Blankets"
+     },
+     "leads": {
+      "EN": "Blankets protect the orbiter's sides because they were lighter, easier to install, and required little maintenance. Made of flexible woven silica strands, their texture is quilted and smooth."
+     },
+     "taglist": {
+      "EN": [
+       "Reentry"
+      ]
+     },
+     "articleId": "usSpBuGD1GmT",
+     "viewId": "VtG8ue",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      2.6482679,
+      -1.7458867,
+      1.8621991
+     ],
+     "direction": [
+      0.9999081,
+      -0.012545,
+      0.0051344
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "id": "U9X5EZ2UsWmV",
+     "titles": {
+      "EN": "Delta Wings"
+     },
+     "leads": {
+      "EN": "NASA chose delta (triangular) wings over straight wings for greater maneuverability."
+     },
+     "taglist": {
+      "EN": [
+       "Landing"
+      ]
+     },
+     "articleId": "K3ogCzgXwn7x",
+     "viewId": "J8lScy",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -9.2557723,
+      -4.3095844,
+      -5.7474766
+     ],
+     "direction": [
+      -0.5144139,
+      0.688315,
+      0.5114692
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0.61,
+      0.87
+     ]
+    },
+    {
+     "id": "uaQ1ItZ7aeQb",
+     "titles": {
+      "EN": "Retractable Landing Gear"
+     },
+     "leads": {
+      "EN": "Like an airplane, Discovery also features retractable landing gear for a smooth landing on a runway. They are stowed during launch and reentry for a more thermally stable and aerodynamic surface."
+     },
+     "taglist": {
+      "EN": [
+       "Landing"
+      ]
+     },
+     "articleId": "K3ogCzgXwn7x",
+     "viewId": "8Qg4Q6",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      0.1201963,
+      -5.0555586,
+      15.433668
+     ],
+     "direction": [
+      0.9826508,
+      -0.1525105,
+      0.1055361
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0.61,
+      0.87
+     ]
+    },
+    {
+     "id": "mmtXKETEmiKa",
+     "titles": {
+      "EN": "Waste Water Dump Nozzle"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Working in Space"
+      ]
+     },
+     "articleId": "oAMFQwy4mQGS",
+     "imageUri": "articles/discovery-bathroom.png",
+     "imageCredit": {
+      "EN": "Smithsonian Institution"
+     },
+     "imageAltText": {
+      "EN": "A very small chamber with drawers in the walls and at the center a toilet."
+     },
+     "viewId": "GlVKKH",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      2.5824948,
+      -2.7274859,
+      8.9848336
+     ],
+     "direction": [
+      0.9998904,
+      -0.0136129,
+      -0.0058146
+     ],
+     "scale": 1.5977309,
+     "color": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "PGSFVMnViYDb",
+     "titles": {
+      "EN": "Star Tracker"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "x7bJ10",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      1.7420859,
+      -0.8956742,
+      13.8841862
+     ],
+     "direction": [
+      0.6121251,
+      0.5076985,
+      0.606255
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "NktoOnJz04Xc",
+     "titles": {
+      "EN": "Star Tracker"
+     },
+     "leads": {
+      "EN": ""
+     },
+     "taglist": {
+      "EN": [
+       "Navigating Space"
+      ]
+     },
+     "articleId": "jfC0GrIbnJXJ",
+     "viewId": "ivHU0Y",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      0.7095221,
+      -0.1814403,
+      13.9815428
+     ],
+     "direction": [
+      0.653042,
+      0.7372932,
+      -0.1730171
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "id": "eSpXc3vnOfkG",
+     "titles": {
+      "EN": "Drag Chute Door"
+     },
+     "leads": {
+      "EN": "The drag chute door would open upon landing to release a parachute to help slow the vehicle down as it rolls down the runway."
+     },
+     "taglist": {
+      "EN": [
+       "Landing"
+      ]
+     },
+     "articleId": "K3ogCzgXwn7x",
+     "imageUri": "articles/nasa-KSC-07PD-3159~medium.jpg",
+     "imageCredit": {
+      "EN": "NASA"
+     },
+     "imageAltText": {
+      "EN": "A space shuttle orbiter touches back down on earth. Its drag chute has been deployed from the aft of the vehicle."
+     },
+     "viewId": "MHswYO",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      0.0507898,
+      1.1687108,
+      -14.1435094
+     ],
+     "direction": [
+      0.0042169,
+      -0.0613308,
+      -0.9981086
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0.61,
+      0.87
+     ]
+    },
+    {
+     "id": "XSnPIryFPzuR",
+     "titles": {
+      "EN": "Body Flap"
+     },
+     "leads": {
+      "EN": "The body flap serves two purposes. It acts like an airplane\u2019s horizontal stabilizer, keeping the vehicle\u2019s attitude level. It\u2019s also large to protect the main engines during atmospheric reentry."
+     },
+     "taglist": {
+      "EN": [
+       "Landing"
+      ]
+     },
+     "articleId": "K3ogCzgXwn7x",
+     "viewId": "O9IOmF",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -2.9478961,
+      -5.5042859,
+      -15.5236605
+     ],
+     "direction": [
+      -0.96585,
+      -0.0742091,
+      -0.2482475
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0.61,
+      0.87
+     ]
+    },
+    {
+     "id": "POo3VDLOIfYB",
+     "titles": {
+      "EN": "Vertical Stabilizer"
+     },
+     "leads": {
+      "EN": "Also known as the tail, the vertical stabilizer kept the orbiter lined up with its direction of motion. Two large panels, or speed brake, could be flared out, to slow the vehicle after touchdown."
+     },
+     "taglist": {
+      "EN": [
+       "Landing"
+      ]
+     },
+     "articleId": "K3ogCzgXwn7x",
+     "viewId": "Om0FBU",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      0.0282078,
+      4.1610311,
+      -16.6444648
+     ],
+     "direction": [
+      -0.9939978,
+      -0.0365119,
+      -0.1031276
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0.61,
+      0.87
+     ]
+    },
+    {
+     "id": "aSlSlHrvTkP1",
+     "titles": {
+      "EN": "Elevons"
+     },
+     "leads": {
+      "EN": "Found on either wing, elevons are like the ailerons that control roll on aircraft. For Space Shuttle orbiters, which do not have elevators, the elevons also control pitch."
+     },
+     "taglist": {
+      "EN": [
+       "Landing"
+      ]
+     },
+     "articleId": "K3ogCzgXwn7x",
+     "viewId": "cRRYc1",
+     "style": "Extended",
+     "visible": false,
+     "position": [
+      -10.0136481,
+      -4.6923951,
+      -11.7208606
+     ],
+     "direction": [
+      0.0676523,
+      0.9909388,
+      -0.1160321
+     ],
+     "scale": 1.5977309,
+     "color": [
+      0,
+      0.61,
+      0.87
+     ]
+    }
+   ]
+  }
+ ],
+ "metas": [
+  {
+   "articles": [
+    {
+     "id": "vlRl8IjJGRrG",
+     "uris": {
+      "EN": "articles/new-article-vlRl8IjJGRrG-0.html"
+     },
+     "titles": {
+      "EN": "Discovery at a Glance"
+     },
+     "leads": {
+      "EN": "What you are looking at is the Space Shuttle Discovery. Discovery is an example of a Space Shuttle orbiter, a component of NASA\u2019s Space Transportation System (STS)."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "Q8zsPcS71nOZ",
+     "uris": {
+      "EN": "articles/new-article-Q8zsPcS71nOZ-0.html"
+     },
+     "titles": {
+      "EN": "Tour the Inside of Discovery"
+     },
+     "leads": {
+      "EN": "Join space shuttle curator Jennifer Levasseur on a tour through the interior of Discovery."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "uMsrqfsmqG9o",
+     "uris": {
+      "EN": "articles/new-article-uMsrqfsmqG9o-0.html"
+     },
+     "titles": {
+      "EN": "Taking Off: The Space Shuttle Main Engine"
+     },
+     "leads": {
+      "EN": "The orbiter\u2019s main engines worked together with two solid rocket boosters (not seen here) to provide the orbiter with enough thrust to launch into space."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "jfC0GrIbnJXJ",
+     "uris": {
+      "EN": "articles/new-article-jfC0GrIbnJXJ-0.html"
+     },
+     "titles": {
+      "EN": "Navigating Space"
+     },
+     "leads": {
+      "EN": "Once in orbit, the standard forces of flight on we use to fly aircraft on Earth no longer apply. "
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "9nCI2g0TXDOu",
+     "uris": {
+      "EN": "articles/new-article-9nCI2g0TXDOu-0.html"
+     },
+     "titles": {
+      "EN": "Working in Space: Many Windows for a Variety of Work"
+     },
+     "leads": {
+      "EN": "Discovery features windows that aid in the variety of missions it carried out while in service."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "CAtrSbgSLVSu",
+     "uris": {
+      "EN": "articles/new-article-CAtrSbgSLVSu-0.html"
+     },
+     "titles": {
+      "EN": "Working in Space: Payload Bay"
+     },
+     "leads": {
+      "EN": "Discovery features a payload bay the size of a school bus."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "oAMFQwy4mQGS",
+     "uris": {
+      "EN": "articles/new-article-oAMFQwy4mQGS-0.html"
+     },
+     "titles": {
+      "EN": "Working in Space: The Realities of Life in Space"
+     },
+     "leads": {
+      "EN": "Just like on Earth, astronauts needed a place to use the bathroom while in space."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "usSpBuGD1GmT",
+     "uris": {
+      "EN": "articles/new-article-usSpBuGD1GmT-0.html"
+     },
+     "titles": {
+      "EN": "Operating in Hostile Environments: Carbon Panels, Tiles, Blankets"
+     },
+     "leads": {
+      "EN": "Discovery encountered hostile conditions once it left our Earth\u2019s atmosphere, and upon reentry."
+     },
+     "taglist": {
+      "EN": []
+     }
+    },
+    {
+     "id": "K3ogCzgXwn7x",
+     "uris": {
+      "EN": "articles/new-article-K3ogCzgXwn7x-0.html"
+     },
+     "titles": {
+      "EN": "Landing on Earth: From Spacecraft to Aircraft"
+     },
+     "leads": {
+      "EN": "The shuttle was designed for maximum reusability. It needed to be able to safely glide onto a runway when it touched back down to Earth."
+     },
+     "taglist": {
+      "EN": []
+     }
+    }
+   ]
+  },
+  {
+   "collection": {
+    "edanRecordId": "edanmdm:nasm_A20120325000",
+    "title": "Orbiter, Space Shuttle, OV-103, Discovery",
+    "titles": {
+     "EN": "Orbiter, Space Shuttle, OV-103, Discovery"
+    }
+   },
+   "images": [
+    {
+     "uri": "scene-image-thumb.jpg",
+     "quality": "Thumb",
+     "byteSize": 10071,
+     "width": 320,
+     "height": 320
+    },
+    {
+     "uri": "scene-image-low.jpg",
+     "quality": "Low",
+     "byteSize": 30855,
+     "width": 640,
+     "height": 640
+    },
+    {
+     "uri": "scene-image-medium.jpg",
+     "quality": "Medium",
+     "byteSize": 103368,
+     "width": 1280,
+     "height": 1280
+    },
+    {
+     "uri": "scene-image-high.jpg",
+     "quality": "High",
+     "byteSize": 372192,
+     "width": 2560,
+     "height": 2560
+    }
+   ]
+  }
+ ],
+ "setups": [
+  {
+   "interface": {
+    "visible": true,
+    "logo": true,
+    "menu": true,
+    "tools": true
+   },
+   "reader": {
+    "enabled": false,
+    "position": "Overlay"
+   },
+   "viewer": {
+    "shader": "Default",
+    "exposure": 1,
+    "toneMapping": false,
+    "gamma": 2,
+    "isWallMountAR": false,
+    "arScale": 0.05,
+    "activeTags": "Taking Off"
+   },
+   "navigation": {
+    "enabled": true,
+    "autoZoom": true,
+    "autoRotation": false,
+    "lightsFollowCamera": true,
+    "type": "Orbit",
+    "orbit": {
+     "orbit": [
+      -9.8268266,
+      -42.0873896,
+      0
+     ],
+     "offset": [
+      1.4108475,
+      -1.6211817,
+      37.5509458
+     ],
+     "minOrbit": [
+      -90,
+      null,
+      null
+     ],
+     "maxOrbit": [
+      90,
+      null,
+      null
+     ],
+     "minOffset": [
+      null,
+      null,
+      0.1
+     ],
+     "maxOffset": [
+      null,
+      null,
+      10000
+     ]
+    }
+   },
+   "background": {
+    "style": "RadialGradient",
+    "color0": [
+     0.2,
+     0.25,
+     0.3
+    ],
+    "color1": [
+     0.01,
+     0.03,
+     0.05
+    ]
+   },
+   "floor": {
+    "visible": false,
+    "position": [
+     -1.7102218,
+     -9.5671835,
+     -2.4976073
+    ],
+    "size": 43.7303548,
+    "color": [
+     0.6,
+     0.75,
+     0.8
+    ],
+    "opacity": 0.5,
+    "receiveShadow": false
+   },
+   "grid": {
+    "visible": false,
+    "color": [
+     0.5,
+     0.7,
+     0.8
+    ]
+   },
+   "tape": {
+    "enabled": false
+   },
+   "slicer": {
+    "enabled": false,
+    "axis": "X",
+    "position": 0.5,
+    "inverted": false,
+    "color": [
+     0,
+     0.61,
+     0.87
+    ]
+   },
+   "environment": {
+    "index": 0
+   },
+   "language": {
+    "language": "EN"
+   },
+   "tours": [
+    {
+     "steps": [
+      {
+       "id": "isTmfj",
+       "titles": {
+        "EN": "Welcome to the Space Shuttle Discovery"
+       }
+      },
+      {
+       "id": "7QzBND",
+       "titles": {
+        "EN": "Discovery at a Glance"
+       }
+      },
+      {
+       "id": "G4Y2Q7",
+       "titles": {
+        "EN": "Taking Off: Crew Hatch"
+       }
+      },
+      {
+       "id": "VndpCw",
+       "titles": {
+        "EN": "Taking Off: The Space Shuttle Main Engine"
+       }
+      },
+      {
+       "id": "oqANv2",
+       "titles": {
+        "EN": "Taking Off: The Space Shuttle Main Engine"
+       }
+      },
+      {
+       "id": "O6y7fC",
+       "titles": {
+        "EN": "Navigating Space"
+       }
+      },
+      {
+       "id": "U5ftyI",
+       "titles": {
+        "EN": "Navigating Space"
+       }
+      },
+      {
+       "id": "Y0kgIM",
+       "titles": {
+        "EN": "Working in Space: Many Windows for a Variety of Work"
+       }
+      },
+      {
+       "id": "wkEcSA",
+       "titles": {
+        "EN": "Working in Space: Many Windows for a Variety of Work"
+       }
+      },
+      {
+       "id": "szdwLn",
+       "titles": {
+        "EN": "Working in Space: Discovery\u2019s Payload Bay"
+       }
+      },
+      {
+       "id": "SAi143",
+       "titles": {
+        "EN": "Working in Space: Discovery\u2019s Payload Bay"
+       }
+      },
+      {
+       "id": "xIbnPJ",
+       "titles": {
+        "EN": "Working in Space: The Realities of Life in Space"
+       }
+      },
+      {
+       "id": "OS7FvW",
+       "titles": {
+        "EN": "Working in Space: The Realities of Life in Space"
+       }
+      },
+      {
+       "id": "PLF8cv",
+       "titles": {
+        "EN": "Operating in a Hostile Environment: Carbon Panels, Tiles, Blankets"
+       }
+      },
+      {
+       "id": "ymsg4y",
+       "titles": {
+        "EN": "Reentry: Carbon Panels"
+       }
+      },
+      {
+       "id": "irUot7",
+       "titles": {
+        "EN": "Reentry: Black Tiles"
+       }
+      },
+      {
+       "id": "nwXCzU",
+       "titles": {
+        "EN": "Reentry: White Tiles"
+       }
+      },
+      {
+       "id": "ks0yMV",
+       "titles": {
+        "EN": "Reentry: Blankets"
+       }
+      },
+      {
+       "id": "f58lve",
+       "titles": {
+        "EN": "Landing: From Spacecraft to Aircraft"
+       }
+      },
+      {
+       "id": "ktCrm4",
+       "titles": {
+        "EN": "Landing: Wings"
+       }
+      },
+      {
+       "id": "iRmVQy",
+       "titles": {
+        "EN": "Landing: Elevons"
+       }
+      },
+      {
+       "id": "2ZYs6M",
+       "titles": {
+        "EN": "Landing: Body Flap"
+       }
+      },
+      {
+       "id": "TDfP2h",
+       "titles": {
+        "EN": "Landing: Drag Chute Door"
+       }
+      },
+      {
+       "id": "5fXy2G",
+       "titles": {
+        "EN": "Landing: Vertical Stabilizer"
+       }
+      },
+      {
+       "id": "rxwTbI",
+       "titles": {
+        "EN": "Landing: Retractable Landing Gear"
+       }
+      }
+     ],
+     "titles": {
+      "EN": "Getting Your Space Legs: An Overview of the Space Shuttle Discovery"
+     },
+     "leads": {
+      "EN": "Learn the basics of the Space Shuttle Discovery."
+     },
+     "taglist": {
+      "EN": []
+     }
+    }
+   ],
+   "snapshots": {
+    "features": [
+     "reader",
+     "viewer",
+     "navigation"
+    ],
+    "targets": [
+     "scenes/0/setup/reader/enabled",
+     "scenes/0/setup/reader/position",
+     "scenes/0/setup/reader/articleId",
+     "scenes/0/setup/viewer/annotationsVisible",
+     "scenes/0/setup/viewer/activeAnnotation",
+     "scenes/0/setup/viewer/activeTags",
+     "scenes/0/setup/viewer/shader",
+     "scenes/0/setup/viewer/exposure",
+     "scenes/0/setup/navigation/orbit",
+     "scenes/0/setup/navigation/offset"
+    ],
+    "states": [
+     {
+      "id": "isTmfj",
+      "values": [
+       false,
+       0,
+       "",
+       true,
+       "",
+       "",
+       0,
+       1,
+       [
+        2.6071403,
+        100.5058355,
+        0
+       ],
+       [
+        1.4491317,
+        -2.8639023,
+        31.290213
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "oqANv2",
+      "values": [
+       false,
+       0,
+       "vlRl8IjJGRrG",
+       true,
+       "",
+       "Taking Off",
+       0,
+       1,
+       [
+        -1.3509922,
+        -148.401045,
+        0
+       ],
+       [
+        -6.9128763,
+        -2.1696674,
+        32.1807757
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "VndpCw",
+      "values": [
+       true,
+       0,
+       "uMsrqfsmqG9o",
+       true,
+       "",
+       "",
+       0,
+       1,
+       [
+        2.2473793,
+        -163.0732823,
+        0
+       ],
+       [
+        0.1486614,
+        -1.3148481,
+        40.5507388
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "U5ftyI",
+      "values": [
+       false,
+       0,
+       "vlRl8IjJGRrG",
+       true,
+       "",
+       "Moving in Space, Navigating Space",
+       0,
+       1,
+       [
+        -45.028687,
+        31.2040563,
+        0
+       ],
+       [
+        -1.4014904,
+        -3.4858292,
+        47.9649622
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "O6y7fC",
+      "values": [
+       true,
+       0,
+       "jfC0GrIbnJXJ",
+       true,
+       "",
+       "Moving in Space",
+       0,
+       1,
+       [
+        -60.738931,
+        -78.8213837,
+        0
+       ],
+       [
+        2.3254916,
+        -2.3901434,
+        27.9160447
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "j5Mgp5",
+      "values": [
+       false,
+       0,
+       "vlRl8IjJGRrG",
+       true,
+       "a65OCZcMGge5",
+       "Taking Off",
+       0,
+       1,
+       [
+        11.0268428,
+        66.7451023,
+        0
+       ],
+       [
+        -7.7954982,
+        -1.4937508,
+        19.655141
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Y0kgIM",
+      "values": [
+       true,
+       0,
+       "9nCI2g0TXDOu",
+       true,
+       "",
+       "Operating in Space",
+       0,
+       1,
+       [
+        -15.9432047,
+        22.3394669,
+        0
+       ],
+       [
+        -3.3034253,
+        -2.7173031,
+        21.2669605
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "szdwLn",
+      "values": [
+       true,
+       0,
+       "CAtrSbgSLVSu",
+       true,
+       "",
+       "Operating in Space",
+       0,
+       1,
+       [
+        -68.5773484,
+        70.7333813,
+        0
+       ],
+       [
+        1.4336781,
+        -2.5002235,
+        21.2669605
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "PLF8cv",
+      "values": [
+       true,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "",
+       "Operating in Space",
+       0,
+       1,
+       [
+        -30.5847387,
+        -8.2920965,
+        0
+       ],
+       [
+        5.0466141,
+        -5.8171224,
+        33.5173884
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "f58lve",
+      "values": [
+       true,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "rqKpvB9J6o38",
+       "",
+       0,
+       1,
+       [
+        -48.6765734,
+        -3.394753,
+        0
+       ],
+       [
+        2.6307571,
+        -8.9061015,
+        33.5173884
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "2LX08f",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "U9X5EZ2UsWmV",
+       "Reentry and Landing",
+       0,
+       1,
+       [
+        -44.9095966,
+        -83.6042356,
+        0
+       ],
+       [
+        0.9169371,
+        -3.8475141,
+        34.4250278
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "cdLC7d",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "uaQ1ItZ7aeQb",
+       "Reentry and Landing",
+       0,
+       1,
+       [
+        9.7109163,
+        87.7602794,
+        0
+       ],
+       [
+        -6.481143,
+        -0.7233882,
+        41.6908649
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "jnSSvM",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        1.3507877,
+        190.768637,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        36.03881
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "OQTYGi",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        1.3507877,
+        190.768637,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        36.03881
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "dlrVom",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        1.3507877,
+        190.768637,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        36.03881
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "534sPU",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -30.8971824,
+        184.9569066,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        61.9213853
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "3jKvBO",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -30.8971824,
+        184.9569066,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        61.9213853
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "ULDF3J",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -48.7002248,
+        71.2079637,
+        0
+       ],
+       [
+        -8.9924605,
+        -5.937618,
+        19.0123038
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "qBSLsL",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -48.7002248,
+        71.2079637,
+        0
+       ],
+       [
+        -8.9924605,
+        -5.937618,
+        19.0123038
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "bP84u2",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -48.7002248,
+        431.2079637,
+        0
+       ],
+       [
+        -8.9924605,
+        -5.937618,
+        19.0123038
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "rBmoLm",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -48.7002248,
+        71.2079637,
+        0
+       ],
+       [
+        -8.9924605,
+        -5.937618,
+        19.0123038
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "sthEuM",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "U9X5EZ2UsWmV",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -67.3383121,
+        239.4485557,
+        0
+       ],
+       [
+        0.3363226,
+        -7.0743478,
+        37.4000792
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Jnq26g",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        6.5134404,
+        447.3146224,
+        0
+       ],
+       [
+        -8.3649253,
+        -2.123274,
+        6.9018448
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "mYLNrc",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7179876,
+        418.4385315,
+        0
+       ],
+       [
+        -6.3117724,
+        -3.604836,
+        18.7638535
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "d2akwT",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7179876,
+        418.4385315,
+        0
+       ],
+       [
+        -6.3117724,
+        -3.604836,
+        18.7638535
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Kkj5Y6",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7179876,
+        418.4385315,
+        0
+       ],
+       [
+        -6.3117724,
+        -3.604836,
+        18.7638535
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "9b57Tg",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7179876,
+        418.4385315,
+        0
+       ],
+       [
+        -6.3117724,
+        -3.604836,
+        18.7638535
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "J4rDmA",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7179876,
+        418.4385315,
+        0
+       ],
+       [
+        -6.3117724,
+        -3.604836,
+        18.7638535
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "qa3M60",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "eSpXc3vnOfkG",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -12.1209672,
+        198.7390822,
+        0
+       ],
+       [
+        -0.7406906,
+        -3.100009,
+        35.0101672
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "gxPUeJ",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "XSnPIryFPzuR",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -20.1225907,
+        202.2553245,
+        0
+       ],
+       [
+        4.3996547,
+        -8.8258429,
+        54.4818364
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "7Y2jGv",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "POo3VDLOIfYB",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -19.6276876,
+        907.1084435,
+        0
+       ],
+       [
+        -1.747113,
+        -5.1650791,
+        37.255943
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "hDZEBh",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "aSlSlHrvTkP1",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -7.1807424,
+        939.133987,
+        0
+       ],
+       [
+        -0.1197413,
+        -1.8380094,
+        35.3543129
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "kdby2d",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -22.0601739,
+        243.6951915,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "KjEuoa",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -22.0601739,
+        -116.3048085,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "xIbnPJ",
+      "values": [
+       true,
+       0,
+       "oAMFQwy4mQGS",
+       true,
+       "",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        -63.2053267,
+        76.6331129,
+        0
+       ],
+       [
+        1.4336781,
+        -2.5002235,
+        26.0529411
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "7QzBND",
+      "values": [
+       true,
+       0,
+       "vlRl8IjJGRrG",
+       true,
+       "",
+       "",
+       0,
+       1,
+       [
+        2.6071403,
+        100.5058355,
+        0
+       ],
+       [
+        1.4491317,
+        -2.8639023,
+        31.290213
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5,
+      "threshold": 0
+     },
+     {
+      "id": "8gXFVu",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "5HwAtP",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "pY53DS",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "3We5Oj",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -3.0084629,
+        0.9426693,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "XIi2lX",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -22.8251317,
+        -175.2994759,
+        0
+       ],
+       [
+        0.0805821,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "XRxNWr",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -22.8251317,
+        -175.2994759,
+        0
+       ],
+       [
+        0.0805821,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Y7o19z",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7573682,
+        723.473435,
+        0
+       ],
+       [
+        0.0805821,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "syOBL1",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7573682,
+        723.473435,
+        0
+       ],
+       [
+        0.0805821,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "kkDKca",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -21.7573682,
+        723.473435,
+        0
+       ],
+       [
+        0.0805821,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "pCCA5w",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -11.2112593,
+        47.8012358,
+        0
+       ],
+       [
+        -3.6075561,
+        -4.4607526,
+        29.1308101
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Y1qBvV",
+      "values": [
+       false,
+       0,
+       "9nCI2g0TXDOu",
+       true,
+       "UKrcT1QJsGSG",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        -37.32396,
+        40.6723116,
+        0
+       ],
+       [
+        -5.9592701,
+        -5.1901243,
+        19.3827647
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "qCqvZq",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -37.32396,
+        40.6723116,
+        0
+       ],
+       [
+        -3.6075561,
+        -4.4607526,
+        29.1308101
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "zbWLLT",
+      "values": [
+       false,
+       0,
+       "pgts8vAknzQ6",
+       true,
+       "6MMst42GXsEd",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        -49.3214481,
+        433.981798,
+        0
+       ],
+       [
+        1.6690804,
+        -0.1734402,
+        29.1308101
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "iRmVQy",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "aSlSlHrvTkP1",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -7.1807424,
+        -140.866013,
+        0
+       ],
+       [
+        -0.1197413,
+        -1.8380094,
+        35.3543129
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "5fXy2G",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "POo3VDLOIfYB",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -19.6276876,
+        -172.8915565,
+        0
+       ],
+       [
+        -1.747113,
+        -5.1650791,
+        37.255943
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "nkGJl3",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "POo3VDLOIfYB",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -19.6276876,
+        -172.8915565,
+        0
+       ],
+       [
+        -1.747113,
+        -5.1650791,
+        37.255943
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "SAi143",
+      "values": [
+       false,
+       0,
+       "pgts8vAknzQ6",
+       true,
+       "6MMst42GXsEd",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        -49.3214481,
+        73.981798,
+        0
+       ],
+       [
+        1.6690804,
+        -0.1734402,
+        29.1308101
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "aZiLs5",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -36.0218899,
+        78.0260395,
+        0
+       ],
+       [
+        0.2730626,
+        -3.8814795,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "cVPR8N",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -27.5703335,
+        -78.1861574,
+        0
+       ],
+       [
+        2.1484831,
+        -2.2293833,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "VtG8ue",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -36.0218899,
+        438.0260395,
+        0
+       ],
+       [
+        0.2730626,
+        -3.8814795,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "W2HGRq",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -11.6507329,
+        -56.1420949,
+        0
+       ],
+       [
+        0.9127583,
+        -2.6325557,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "xiTzl8",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -11.6507329,
+        -56.1420949,
+        0
+       ],
+       [
+        0.9127583,
+        -2.6325557,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "eIbca8",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -40.9175972,
+        79.8783007,
+        0
+       ],
+       [
+        -1.1546386,
+        -2.7226239,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "pvC9bI",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -34.5506606,
+        -54.4887862,
+        0
+       ],
+       [
+        0.7546944,
+        -2.0474714,
+        25.6381948
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "yMpHFl",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -1.4849078,
+        100.4048561,
+        0
+       ],
+       [
+        -3.9247394,
+        -1.398428,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "2rJQI6",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        11.259052,
+        94.4684987,
+        0
+       ],
+       [
+        -6.4899221,
+        -3.4769621,
+        22.6512345
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "0ezUuq",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -7.5592017,
+        -1.5223177,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "FyAjNX",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -7.5592017,
+        -1.5223177,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "OPXco0",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -2.7511413,
+        -144.3661604,
+        0
+       ],
+       [
+        -7.5592017,
+        -1.5223177,
+        48.892075
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Tm858J",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -23.6783435,
+        169.342758,
+        0
+       ],
+       [
+        -1.4644215,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "15aecM",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -22.8251317,
+        184.7005241,
+        0
+       ],
+       [
+        0.5019516,
+        -5.3950674,
+        36.2162698
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "ivHU0Y",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -42.2343936,
+        746.9366784,
+        0
+       ],
+       [
+        -4.4781555,
+        -8.9075596,
+        17.4421464
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "x7bJ10",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -42.2343936,
+        746.9366784,
+        0
+       ],
+       [
+        -4.4781555,
+        -8.9075596,
+        17.4421464
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "GlVKKH",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -1.4849078,
+        -259.5951439,
+        0
+       ],
+       [
+        -7.9313867,
+        -2.0291102,
+        39.3266828
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "YUnHa3",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -48.8422729,
+        401.0989527,
+        0
+       ],
+       [
+        -6.9333685,
+        -5.4188993,
+        17.4421464
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "eoSstq",
+      "values": [
+       false,
+       0,
+       "9nCI2g0TXDOu",
+       true,
+       "UKrcT1QJsGSG",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        -39.8835838,
+        396.4062759,
+        0
+       ],
+       [
+        -7.0781283,
+        -5.9617474,
+        18.6630967
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "SHqPC1",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "kQB1MNy7DOtQ",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -11.6507329,
+        303.8579051,
+        0
+       ],
+       [
+        -4.7859648,
+        -2.6325557,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "t1oNwC",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "M9VBpwMCWps6",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -34.5506606,
+        305.5112138,
+        0
+       ],
+       [
+        -3.9279943,
+        -0.5952863,
+        27.4328684
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "5mVzMO",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "iQTZoyx7aUAK",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -25.5598311,
+        422.3875167,
+        0
+       ],
+       [
+        -9.4434856,
+        -5.7004029,
+        18.4601448
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "8Qg4Q6",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -1.1124844,
+        786.7391727,
+        0
+       ],
+       [
+        -12.7655877,
+        -4.3969553,
+        16.9443015
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "MHswYO",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -12.1209672,
+        918.7390822,
+        0
+       ],
+       [
+        -5.2213428,
+        -4.050449,
+        35.0101672
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "O9IOmF",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -20.1225907,
+        922.2553245,
+        0
+       ],
+       [
+        1.2302595,
+        -8.1919627,
+        54.4818364
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "I9pBgC",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "U9X5EZ2UsWmV",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -67.3383121,
+        599.4485557,
+        0
+       ],
+       [
+        1.5692143,
+        -7.0743478,
+        37.4000792
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "PzNowN",
+      "values": [
+       false,
+       0,
+       "vlRl8IjJGRrG",
+       true,
+       "a65OCZcMGge5",
+       "Taking Off",
+       0,
+       1,
+       [
+        11.0268428,
+        426.7451023,
+        0
+       ],
+       [
+        -8.0995202,
+        -1.4937508,
+        19.655141
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "wkEcSA",
+      "values": [
+       false,
+       0,
+       "9nCI2g0TXDOu",
+       true,
+       "UKrcT1QJsGSG",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        -39.8835838,
+        36.4062759,
+        0
+       ],
+       [
+        -7.0781283,
+        -5.9617474,
+        18.6630967
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "OS7FvW",
+      "values": [
+       false,
+       0,
+       "oAMFQwy4mQGS",
+       true,
+       "mmtXKETEmiKa",
+       "Operating in Space, Working in Space",
+       0,
+       1,
+       [
+        2.083629,
+        78.1015118,
+        0
+       ],
+       [
+        -7.7461741,
+        -2.4837519,
+        12.9836993
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "ymsg4y",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "kQB1MNy7DOtQ",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -11.6507329,
+        -56.1420949,
+        0
+       ],
+       [
+        -4.7859648,
+        -2.6325557,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "irUot7",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "iQTZoyx7aUAK",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -25.5598311,
+        62.3875167,
+        0
+       ],
+       [
+        -9.4434856,
+        -5.7004029,
+        18.4601448
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "G4Y2Q7",
+      "values": [
+       false,
+       0,
+       "vlRl8IjJGRrG",
+       true,
+       "a65OCZcMGge5",
+       "Taking Off",
+       0,
+       1,
+       [
+        11.0268428,
+        66.7451023,
+        0
+       ],
+       [
+        -8.0995202,
+        -1.4937508,
+        19.655141
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "nwXCzU",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "M9VBpwMCWps6",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -34.5506606,
+        -54.4887862,
+        0
+       ],
+       [
+        -3.9279943,
+        -0.5952863,
+        27.4328684
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "ks0yMV",
+      "values": [
+       false,
+       0,
+       "usSpBuGD1GmT",
+       true,
+       "rqKpvB9J6o38",
+       "Operating in Space, Reentry",
+       0,
+       1,
+       [
+        -36.0218899,
+        78.0260395,
+        0
+       ],
+       [
+        0.2730626,
+        -3.8814795,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "ktCrm4",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "U9X5EZ2UsWmV",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -67.3383121,
+        -120.5514443,
+        0
+       ],
+       [
+        1.5692143,
+        -7.0743478,
+        37.4000792
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "2ZYs6M",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "XSnPIryFPzuR",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -20.1225907,
+        -157.7446755,
+        0
+       ],
+       [
+        1.2302595,
+        -8.1919627,
+        54.4818364
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "TDfP2h",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "eSpXc3vnOfkG",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -12.1209672,
+        -161.2609178,
+        0
+       ],
+       [
+        -5.2213428,
+        -4.050449,
+        35.0101672
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "rxwTbI",
+      "values": [
+       false,
+       0,
+       "K3ogCzgXwn7x",
+       true,
+       "uaQ1ItZ7aeQb",
+       "Reentry and Landing, Landing",
+       0,
+       1,
+       [
+        -1.1124844,
+        -293.2608273,
+        0
+       ],
+       [
+        -12.7655877,
+        -4.3969553,
+        16.9443015
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1.5
+     },
+     {
+      "id": "0eERHJ",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        11.0268428,
+        426.7451023,
+        0
+       ],
+       [
+        -8.0995202,
+        -1.4937508,
+        19.655141
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "6xRK7A",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -39.8835838,
+        396.4062759,
+        0
+       ],
+       [
+        -7.0781283,
+        -5.9617474,
+        18.6630967
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "etmHGX",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -49.3214481,
+        -286.018202,
+        0
+       ],
+       [
+        1.6690804,
+        -0.1734402,
+        29.1308101
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "njgtYF",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -11.6507329,
+        303.8579051,
+        0
+       ],
+       [
+        -4.7859648,
+        -2.6325557,
+        28.5323414
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "U6KoJJ",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -25.5598311,
+        422.3875167,
+        0
+       ],
+       [
+        -9.4434856,
+        -5.7004029,
+        18.4601448
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "zwT89c",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -34.5506606,
+        305.5112138,
+        0
+       ],
+       [
+        -3.9279943,
+        -0.5952863,
+        27.4328684
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "J8lScy",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -67.3383121,
+        599.4485557,
+        0
+       ],
+       [
+        1.5692143,
+        -7.0743478,
+        37.4000792
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "Om0FBU",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -19.6276876,
+        907.1084435,
+        0
+       ],
+       [
+        -1.747113,
+        -5.1650791,
+        37.255943
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "cRRYc1",
+      "values": [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       [
+        -7.1807424,
+        939.133987,
+        0
+       ],
+       [
+        -0.1197413,
+        -1.8380094,
+        35.3543129
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1
+     },
+     {
+      "id": "scene-default",
+      "values": [
+       false,
+       0,
+       "",
+       false,
+       "",
+       "Taking Off",
+       0,
+       1,
+       [
+        -9.8156361,
+        -27.6619814,
+        0
+       ],
+       [
+        -2.939297,
+        0.9980427,
+        46.9002457
+       ]
+      ],
+      "curve": "EaseOutQuad",
+      "duration": 1,
+      "threshold": 0
+     }
+    ]
+   },
+   "audio": {
+    "narrationId": ""
+   }
+  }
+ ]
+}
