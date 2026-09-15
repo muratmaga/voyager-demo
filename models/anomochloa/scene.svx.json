@@ -141,7 +141,7 @@
    "light": 3
   },
   {
-   "name": "Aira caryophylla phytolith (pmr642)",
+   "name": "Anomochloa marantoidea phytolith (pmr401)",
    "model": 0,
    "meta": 0
   }
@@ -203,14 +203,14 @@
    "units": "mm",
    "boundingBox": {
     "min": [
-     -16.053,
-     -6.4521,
-     -6.2343
+     -6.1107,
+     -9.5051,
+     -3.0836
     ],
     "max": [
-     17.8633,
-     5.4194,
-     6.4336
+     8.4474,
+     9.618,
+     4.3458
     ]
    },
    "derivatives": [
@@ -219,9 +219,9 @@
      "quality": "High",
      "assets": [
       {
-       "uri": "../aira_caryophylla_pmr642_3_29_2019_009_aligned.ply",
+       "uri": "../anomochloa_marantoidea_pmr401_04_28_2026_010_aligned.ply",
        "type": "Geometry",
-       "byteSize": 646066,
+       "byteSize": 380226,
        "numFaces": 20000
       }
      ]
@@ -1120,7 +1120,7 @@
   {
    "collection": {
     "titles": {
-     "EN": "Aira caryophylla phytolith (pmr642)"
+     "EN": "Anomochloa marantoidea phytolith (pmr401)"
     },
     "intros": {
      "EN": "Confocal-microscopy phytolith mesh from the Str\u00f6mberg lab (UW), segmented in Fiji, meshed in MeshLab. Demo only. Coordinates are micrometres (shown as mm)."
