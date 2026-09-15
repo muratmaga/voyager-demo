@@ -1117,13 +1117,16 @@
   }
  ],
  "metas": [
+  {},
   {
    "collection": {
+    "edanRecordId": "edanmdm:nasm_A20120325000",
+    "title": "Orbiter, Space Shuttle, OV-103, Discovery",
     "titles": {
      "EN": "Aira caryophylla phytolith (pmr642)"
     },
     "intros": {
-     "EN": "Confocal-microscopy phytolith mesh from the Str\u00f6mberg lab (UW), segmented in Fiji, meshed in MeshLab. Demo only. Coordinates are micrometres (shown as mm)."
+     "EN": "Confocal-microscopy phytolith mesh from the Str\u00f6mberg lab (UW), segmented in Fiji, meshed in MeshLab. Demo only. Coordinates are micrometres (declared as mm)."
     }
    }
   }
